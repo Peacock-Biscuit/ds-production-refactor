@@ -1,10 +1,9 @@
-# ML Production Practice
+# ds-production-refactor
 
-A refactoring project that transforms statistical and machine learning analyses from exploratory Jupyter notebooks into production-grade Python code.
-This repository demonstrates the full DS-to-MLE engineering transformation: taking existing data science work across machine learning, Bayesian statistics, regression analysis, and statistical inference, and rebuilding it with software engineering best practices — modular structure, type hints, docstrings, unit tests, CI/CD pipelines, and REST API serving.
+A refactoring project that transforms data science analyses from exploratory Jupyter notebooks into production-grade Python code.
+Each folder takes existing statistical and ML work and rebuilds it with software engineering best practices — modular structure, type hints, docstrings, unit tests, CI/CD pipelines, and REST API serving. The goal is to practice the engineering discipline that bridges data science and ML engineering.
 
-What this shows:
-
+## What this shows
 * Refactoring notebook-style code into clean, modular Python packages
 * Type-annotated functions with full docstrings
 * pytest test suites covering data loading, model training, and prediction validation
@@ -13,6 +12,9 @@ What this shows:
 * Experiment tracking with Weights & Biases
 * Configuration management separating code from parameters
 
-**Topics covered**: Machine Learning · Bayesian Statistics · Regression Analysis · Statistical Inference · Multivariate Analysis · Time Series
+## Topics covered so far
 
-**Stack**: Python · PyTorch · scikit-learn · FastAPI · pytest · GitHub Actions · W&B · ruff
+Machine Learning
+
+## Stack
+Python · scikit-learn · FastAPI · pytest · GitHub Actions · W&B · ruff
